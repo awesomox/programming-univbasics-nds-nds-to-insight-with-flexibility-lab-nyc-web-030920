@@ -35,7 +35,7 @@ def movies_with_directors_set(source)
     column_index = 0 
     
     while column_index < source[row_index][:movies].length do 
-      movie_with_director_name
+      directors_movies.push(movie_with_director_name(source[])
     
 end
 
