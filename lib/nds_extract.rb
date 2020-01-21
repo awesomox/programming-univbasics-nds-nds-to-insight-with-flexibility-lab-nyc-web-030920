@@ -6,8 +6,6 @@ require 'directors_database'
 
 pp directors_database
 
-
-
 def movie_with_director_name(director_name, movie_data)
   { 
     :title => movie_data[:title],
