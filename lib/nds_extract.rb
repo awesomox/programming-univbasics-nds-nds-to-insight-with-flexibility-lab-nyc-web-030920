@@ -28,7 +28,15 @@ def gross_per_studio(collection)
 end
 
 def movies_with_directors_set(source)
-
+  directors_movies = [] 
+  row_index = 0 
+  
+  while row_index < source.length do 
+    column_index = 0 
+    
+    while column_index < source[row_index][:movies].length do 
+      movie_with_director_name
+    
 end
 
 # ----------------    End of Your Code Region --------------------
